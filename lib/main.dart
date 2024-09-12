@@ -42,61 +42,355 @@ Future<void> seedFirestore() async {
   List<Map<String, dynamic>> data = [
     {
       'classId': '1',
-      'className': 'First Grade',
+      'className': 'اولي ابتدائي',
       'subjects': [
         {
           'subjectId': 'math',
-          'subjectName': 'Mathematics',
-          'lessons': [
-            {
-              'lessonId': 'lesson_1',
-              'title': 'Introduction to Addition',
-              'description': 'Basic concepts of addition',
-              'videoUrl':
-                  'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
-            },
-            {
-              'lessonId': 'lesson_2',
-              'title': 'Subtraction Basics',
-              'description': 'Understanding subtraction',
-              'videoUrl':
-                  'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
-            }
-          ]
+          'subjectName': 'رياضيات',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Addition',
+          //     'description': 'Basic concepts of addition',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   },
+          //   {
+          //     'lessonId': 'lesson_2',
+          //     'title': 'Subtraction Basics',
+          //     'description': 'Understanding subtraction',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
         },
         {
-          'subjectId': 'science',
-          'subjectName': 'Science',
-          'lessons': [
-            {
-              'lessonId': 'lesson_1',
-              'title': 'Introduction to Plants',
-              'description': 'Basics of plant biology',
-              'videoUrl':
-                  'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
-            }
-          ]
+          'subjectId': 'arabic',
+          'subjectName': 'عربي',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Plants',
+          //     'description': 'Basics of plant biology',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
         }
       ]
     },
     {
       'classId': '2',
-      'className': 'Second Grade',
+      'className': 'ثانيه ابتدائي',
       'subjects': [
         {
           'subjectId': 'math',
-          'subjectName': 'Mathematics',
-          'lessons': [
-            {
-              'lessonId': 'lesson_1',
-              'title': 'Multiplication Basics',
-              'description': 'Learning multiplication',
-              'videoUrl': 'https://sample-videos.com/video126.mp4',
-            }
-          ]
+          'subjectName': 'رياضيات',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Addition',
+          //     'description': 'Basic concepts of addition',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   },
+          //   {
+          //     'lessonId': 'lesson_2',
+          //     'title': 'Subtraction Basics',
+          //     'description': 'Understanding subtraction',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        },
+        {
+          'subjectId': 'arabic',
+          'subjectName': 'عربي',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Plants',
+          //     'description': 'Basics of plant biology',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
         }
       ]
-    }
+    },
+    {
+      'classId': '3',
+      'className': 'ثالثه ابتدائي',
+      'subjects': [
+        {
+          'subjectId': 'math',
+          'subjectName': 'رياضيات',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Addition',
+          //     'description': 'Basic concepts of addition',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   },
+          //   {
+          //     'lessonId': 'lesson_2',
+          //     'title': 'Subtraction Basics',
+          //     'description': 'Understanding subtraction',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        },
+        {
+          'subjectId': 'arabic',
+          'subjectName': 'عربي',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Plants',
+          //     'description': 'Basics of plant biology',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        }
+      ]
+    },
+    {
+      'classId': '4',
+      'className': 'رابعه ابتدائ',
+      'subjects': [
+        {
+          'subjectId': 'math',
+          'subjectName': 'رياضيات',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Addition',
+          //     'description': 'Basic concepts of addition',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   },
+          //   {
+          //     'lessonId': 'lesson_2',
+          //     'title': 'Subtraction Basics',
+          //     'description': 'Understanding subtraction',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        },
+        {
+          'subjectId': 'arabic',
+          'subjectName': 'عربي',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Plants',
+          //     'description': 'Basics of plant biology',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        }
+      ]
+    },
+    {
+      'classId': '5',
+      'className': 'خامسه ابتدائ',
+      'subjects': [
+        {
+          'subjectId': 'math',
+          'subjectName': 'رياضيات',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Addition',
+          //     'description': 'Basic concepts of addition',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   },
+          //   {
+          //     'lessonId': 'lesson_2',
+          //     'title': 'Subtraction Basics',
+          //     'description': 'Understanding subtraction',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        },
+        {
+          'subjectId': 'arabic',
+          'subjectName': 'عربي',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Plants',
+          //     'description': 'Basics of plant biology',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        }
+      ]
+    },
+    {
+      'classId': '6',
+      'className': 'سادسه ابتدائ',
+      'subjects': [
+        {
+          'subjectId': 'math',
+          'subjectName': 'رياضيات',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Addition',
+          //     'description': 'Basic concepts of addition',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   },
+          //   {
+          //     'lessonId': 'lesson_2',
+          //     'title': 'Subtraction Basics',
+          //     'description': 'Understanding subtraction',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        },
+        {
+          'subjectId': 'arabic',
+          'subjectName': 'عربي',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Plants',
+          //     'description': 'Basics of plant biology',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        }
+      ]
+    },
+    {
+      'classId': '7',
+      'className': 'اولي متوسط',
+      'subjects': [
+        {
+          'subjectId': 'math',
+          'subjectName': 'رياضيات',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Addition',
+          //     'description': 'Basic concepts of addition',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   },
+          //   {
+          //     'lessonId': 'lesson_2',
+          //     'title': 'Subtraction Basics',
+          //     'description': 'Understanding subtraction',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        },
+        {
+          'subjectId': 'arabic',
+          'subjectName': 'عربي',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Plants',
+          //     'description': 'Basics of plant biology',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        }
+      ]
+    },
+    {
+      'classId': '8',
+      'className': 'ثانيه متوسط',
+      'subjects': [
+        {
+          'subjectId': 'math',
+          'subjectName': 'رياضيات',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Addition',
+          //     'description': 'Basic concepts of addition',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   },
+          //   {
+          //     'lessonId': 'lesson_2',
+          //     'title': 'Subtraction Basics',
+          //     'description': 'Understanding subtraction',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        },
+        {
+          'subjectId': 'arabic',
+          'subjectName': 'عربي',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Plants',
+          //     'description': 'Basics of plant biology',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        }
+      ]
+    },
+    {
+      'classId': '9',
+      'className': 'ثالثه متوسط',
+      'subjects': [
+        {
+          'subjectId': 'math',
+          'subjectName': 'رياضيات',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Addition',
+          //     'description': 'Basic concepts of addition',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   },
+          //   {
+          //     'lessonId': 'lesson_2',
+          //     'title': 'Subtraction Basics',
+          //     'description': 'Understanding subtraction',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        },
+        {
+          'subjectId': 'arabic',
+          'subjectName': 'عربي',
+          // 'lessons': [
+          //   {
+          //     'lessonId': 'lesson_1',
+          //     'title': 'Introduction to Plants',
+          //     'description': 'Basics of plant biology',
+          //     'videoUrl':
+          //         'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4',
+          //   }
+          // ]
+        }
+      ]
+    },
   ];
 
   try {

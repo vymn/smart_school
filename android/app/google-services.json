@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "218329869218",
+    "project_id": "smart-school-17cbb",
+    "storage_bucket": "smart-school-17cbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218329869218:android:cf491187bbc11cdbe060fb",
+        "android_client_info": {
+          "package_name": "com.example.smart_school"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFhThggyo9ONnZxqOwjoOAdSHsZ8-o0g8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
