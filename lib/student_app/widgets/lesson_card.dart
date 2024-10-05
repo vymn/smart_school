@@ -1,4 +1,4 @@
-import 'package:smart_school/student_app/bloc/video_cubit.dart';
+import 'package:school/student_app/bloc/video_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

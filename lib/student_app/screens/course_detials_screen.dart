@@ -2,8 +2,8 @@ import 'dart:io';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dio/dio.dart';
-import 'package:smart_school/core/constants/colors.dart';
-import 'package:smart_school/student_app/widgets/lesson_card.dart';
+import 'package:school/core/constants/colors.dart';
+import 'package:school/student_app/widgets/lesson_card.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

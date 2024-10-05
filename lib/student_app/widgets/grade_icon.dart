@@ -1,4 +1,4 @@
-import 'package:smart_school/core/constants/colors.dart';
+import 'package:school/core/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

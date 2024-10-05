@@ -1,4 +1,4 @@
-package com.example.smart_school
+package com.example.school
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,4 +1,4 @@
-# smart_school
+# school
 
 A new Flutter project.
 

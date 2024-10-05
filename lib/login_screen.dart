@@ -1,5 +1,5 @@
-import 'package:smart_school/student_app/screens/home_screen.dart';
-import 'package:smart_school/teacher_app/teacher.dart';
+import 'package:school/student_app/screens/home_screen.dart';
+import 'package:school/teacher_app/teacher.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 

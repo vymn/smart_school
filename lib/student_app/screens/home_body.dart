@@ -1,7 +1,7 @@
-import 'package:smart_school/student_app/bloc/grade_bloc.dart';
-import 'package:smart_school/student_app/bloc/course_bloc.dart';
-import 'package:smart_school/student_app/widgets/book.dart';
-import 'package:smart_school/student_app/screens/course_detials_screen.dart';
+import 'package:school/student_app/bloc/grade_bloc.dart';
+import 'package:school/student_app/bloc/course_bloc.dart';
+import 'package:school/student_app/widgets/book.dart';
+import 'package:school/student_app/screens/course_detials_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

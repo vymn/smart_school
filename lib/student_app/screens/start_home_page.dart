@@ -1,4 +1,4 @@
-import 'package:smart_school/core/constants/colors.dart';
+import 'package:school/core/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 import '../../login_screen.dart';
@@ -61,7 +61,7 @@ class StartHomePage extends StatelessWidget {
                               MaterialPageRoute(
                                   builder: (_) => const LoginScreen())),
                           width: size.width),
-                     ],
+                    ],
                   ),
                 ),
               ),

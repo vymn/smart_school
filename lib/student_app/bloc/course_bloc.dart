@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:smart_school/student_app/model/course.dart';
+import 'package:school/student_app/model/course.dart';
 import 'package:meta/meta.dart';
 
 part 'course_event.dart';

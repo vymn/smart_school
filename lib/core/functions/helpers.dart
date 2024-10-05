@@ -1,4 +1,4 @@
-import 'package:smart_school/core/common/widgets/widgets.dart';
+import 'package:school/core/common/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:form_field_validator/form_field_validator.dart';
 
